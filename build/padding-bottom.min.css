@@ -1,0 +1,35 @@
+:root {
+  --spacing-xsmall: .25rem;
+  --spacing-small: .5rem;
+  --spacing-medium: 1rem;
+  --spacing-large: 2rem;
+  --spacing-xlarge: 4rem;
+  --spacing-xxlarge: 8rem;
+  --spacing-xxxlarge: 16rem;
+}
+@media screen {}
+@media print { /* A4 */ /* Letter */
+}
+@media (min-width: 11in) {
+.lpabo-1 {
+  padding-bottom: var(--spacing-xxxlarge);
+}
+.lpabo-2 {
+  padding-bottom: var(--spacing-xxlarge);
+}
+.lpabo-3 {
+  padding-bottom: var(--spacing-xlarge);
+}
+.lpabo-4 {
+  padding-bottom: var(--spacing-large);
+}
+.lpabo-5 {
+  padding-bottom: var(--spacing-medium);
+}
+.lpabo-6 {
+  padding-bottom: var(--spacing-small);
+}
+.lpabo-7 {
+  padding-bottom: var(--spacing-xsmall);
+}
+}

@@ -1,0 +1,12 @@
+.miwi-0 {
+  min-width: 0;
+}
+.miwi-fc {
+  min-width: -webkit-fit-content;
+  min-width: fit-content;
+}
+.miwi-mic {
+  min-width: -webkit-min-content;
+  min-width: min-content;
+}
+

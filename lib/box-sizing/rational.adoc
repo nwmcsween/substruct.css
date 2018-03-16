@@ -1,0 +1,2 @@
+== Rational
+Border box is a intitive default

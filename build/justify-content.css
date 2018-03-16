@@ -1,0 +1,9 @@
+.juco-c {
+  justify-content: center;
+}
+.juco-fe {
+  justify-content: flex-end;
+}
+.juco-sa {
+  justify-content: space-around;
+}

@@ -1,0 +1,45 @@
+== substruct.css
+
+=== What is substruct.css?
+Substruct is a CSS /structure/ (not a framework) that uses a simple mnemonic
+for naming classes.
+
+.Example
+----
+display: flex -> .di-fx
+----
+
+=== Features
+* **1kb** max minified and gzipped.
+* Simple and intuitive naming.
+* Nothing extra; no colors, resets, grids, etc.
+
+
+=== Naming
+1. Property naming: First two letters of each word (e.g. `box-sizing-> bosi`)
+2. Single word value naming: First two letters of each word.
+3. Multi-word value naming: First letter of each word.
+4. Single word conflicts: the next syllable is taken
+   (e.g. `style -> sty-le -> sl`),
+5. Multi-word conflicts: resolved by taking the next unique letter
+   (e.g. `max-content -> mac, min-content -> mic`)
+
+=== FAQ
+* Why?
+** Because it makes read/writing CSS easier.
+* Why aren't semi-useless or old properties included in substruct.css?
+** Because substruct.css only includes useful properties to limit size.
+* How do I use substruct.css from other projects
+** I recommend postcss-compose
+* How is this different from Tachyons?
+** substruct.css has file-per-property naming as in display properties are in display.css
+** substruct.css has a somewhat sane naming scheme that can be inferred without looking
+   up classes.
+** substruct.css doesn't bundle normalize.css.
+** substrut.css doesn't enforce box-sizing: border-box. 
+
+=== Pull requests
+* Explain the reasoning for the changes in the commit message,
+  use prop: change description style.
+* Additios or Removals are more than welcome if reasoning can be given in the
+  commit message.

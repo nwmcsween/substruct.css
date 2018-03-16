@@ -1,0 +1,3 @@
+.juco-fs {
+  justify-content: flex-start;
+}

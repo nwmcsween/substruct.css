@@ -1,0 +1,18 @@
+@media screen {}@media print { /* A4 */ /* Letter */
+}@media @import './align-items/malit-*.css' (min-width: 210mm) {
+.alit-bl {
+  align-items: baseline;
+}
+.alit-ce {
+  align-items: center;
+}
+.alit-fe {
+  align-items: flex-end;
+}
+.alit-fs {
+  align-items: flex-start;
+}
+.alit-st {
+  align-items: stretch;
+}
+}

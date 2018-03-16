@@ -1,0 +1,2 @@
+@custom-media --break-medium (min-width: 210mm); /* A4 */
+@custom-media --break-large (min-width: 11in); /* Letter */

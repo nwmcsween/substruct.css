@@ -1,0 +1,7 @@
+@import '../int/break-screen.css' screen;
+@import '../int/break-print.css' print;
+@import '../int/spacing.css';
+
+@import './padding-right/pari-*.css'
+@import './padding-right/mpari-*.css' (--break-medium);
+@import './padding-right/lpari-*.css' (--break-large);

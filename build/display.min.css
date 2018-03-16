@@ -1,0 +1,25 @@
+@media screen {}@media print { /* A4 */ /* Letter */
+}@media @import './display/mdi-*.css' (min-width: 210mm) {
+.di-bl {
+  display: block;
+}
+.di-fx {
+  display: flex;
+}
+.di-gr {
+  display: grid;
+}
+.di-n {
+  display: none;
+}
+}@media (min-width: 11in) {
+.ldi-bl {
+  display: block;
+}
+.ldi-in {
+  display: inline;
+}
+.ldi-no {
+  display: none;
+}
+}
